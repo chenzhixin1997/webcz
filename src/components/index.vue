@@ -1,16 +1,20 @@
 <template>
   <div class="">
-    111111111111111111
+    <Header></Header>
   </div>
 </template>
 
 <script>
+import Header from '@/components/header'
 export default {
   name: 'index',
   data () {
     return {
       msg: ''
     }
+  },
+  components:{
+    Header
   }
 }
 </script>
